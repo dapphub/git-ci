@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 echo "Available commands:"
-ls -1 ~/git-shell-commands
+ls -1 "${0%/*}"
